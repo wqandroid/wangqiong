@@ -31,7 +31,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 
 		listView = (PullToRefreshListView) findViewById(R.id.pull_to_refresh_listview);
-
+//		git@github.com:wqandroid/wangqiong.git
 		// OPTIONAL: Dsssisable scrolling when list is refreshing
 		// listView.setLockScrollWhileRefreshing(false);
 
