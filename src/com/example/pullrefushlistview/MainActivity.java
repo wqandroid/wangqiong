@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
 	private PullToRefreshListView listView;
 	private PullToRefreshListViewSampleAdapter adapter;
 
-	
+	  
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -32,7 +32,7 @@ public class MainActivity extends Activity {
 
 		listView = (PullToRefreshListView) findViewById(R.id.pull_to_refresh_listview);
 
-		// OPTIONAL: Disable scrolling when list is refreshing
+		// OPTIONAL: Dsssisable scrolling when list is refreshing
 		// listView.setLockScrollWhileRefreshing(false);
 
 		// OPTIONAL: Uncomment this if you want the Pull to Refresh header to show the 'last updated' time
